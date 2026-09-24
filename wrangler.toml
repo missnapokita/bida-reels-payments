@@ -1,0 +1,9 @@
+name = "bida-reels-payments"
+main = "src/worker.js"
+compatibility_date = "2026-09-24"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[observability.logs]
+enabled = true
+invocation_logs = true
